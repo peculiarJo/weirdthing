@@ -1,3 +1,7 @@
+html{
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +10,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(/imag/bg.png) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  min-height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.project-image{
+  vertical-align: middle;
+  width: 350px;
+  height: auto;
 }
